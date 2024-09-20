@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Off-white background */
+  margin: 0;
+  padding: 0;
+}
+
+#name {
+  font-family: 'Noto Sans', sans-serif !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700; /* Bold weight */
+  color: #333; /* Dark gray color for better visibility */
+}
+
+#blog-feed {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.blog-post {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  margin-top: 0;
+}
